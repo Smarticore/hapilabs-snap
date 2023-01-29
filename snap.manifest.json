@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "description": "HAPILABS Snap",
+  "proposedName": "HAPILABS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "4seD54GAnXOU+jWVblzHU6GCf8XL1uk24fRA141NRGo=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "hapilabs-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_confirm": {},
+    "endowment:network-access": {},
+    "endowment:transaction-insight": {}
+  },
+  "manifestVersion": "0.1"
+}
